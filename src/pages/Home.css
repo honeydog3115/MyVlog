@@ -1,0 +1,13 @@
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+.menu-card h3 {
+  margin-bottom: 8px;
+  color: #f8fafc;
+}
+.menu-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}

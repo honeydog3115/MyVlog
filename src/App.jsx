@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Yorushika from './pages/Yorushika';
 import Wuwa from './pages/Wuwa';
@@ -9,6 +10,7 @@ import Github from './pages/Github';
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/yorushika" element={<Yorushika />} />
